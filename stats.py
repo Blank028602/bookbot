@@ -11,7 +11,7 @@ def characters(book_text):
 		i = i.lower()
 		if i in character:
 			character[i] += 1
-		else: 
+		else:
 			character[i] = 1
 	return character
 
@@ -24,7 +24,7 @@ def sort_list(char_dict):
 		sort = {"char": char, "num": count}
 		sorted_list.append(sort)
 	sorted_list.sort(reverse = True, key = sort_on)
-	return sorted_list 
+	return sorted_list
 
 
 
